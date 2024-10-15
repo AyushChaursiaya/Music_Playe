@@ -6,7 +6,7 @@ import { HiHome } from 'react-icons/hi';
 import { IoTrendingUpSharp } from 'react-icons/io5';
 
 const Sidebar = () => {
-  return (<div className='d-flex align-items-center z-1 overflow-auto bg-black'>
+  return (<div className='d-flex align-items-center bg-black'>
     <div className='container-fluid h-full w-1/5 min-h-screen p-5 '>
       <div className='row d-flex align-items-center'>
         <div className='col-xs-3 flex items-center font-bold text-3xl'>

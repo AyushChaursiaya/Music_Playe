@@ -9,15 +9,10 @@ const SongList = ({ songs, setCurrentSongIndex }) => {
   return (
 
     <div className="w-full h-full sm:w-68 bg-red-900 text-white p-4">
-      {/* Top menu and search images */}
-      <div className="image-container">
-        {/* <img src={topmenuImage} alt="Top Menu" className="w-64 h-auto" />
-        <img src={searchImage} alt="Search" className="w-64 h-auto" /> */}
-      </div>
 
       {/* Artist image */}
       <div className="flex justify-center">
-        <img src={artistImage} alt="Artist" className="w-80 h-auto" />
+        <img src={artistImage} alt="Artist" className="w-2/4  h-2/4" />
       </div>
 
       {/* Song List */}

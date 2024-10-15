@@ -9,7 +9,7 @@ const songs = [
     },
     ,{
         title: "Houdini",
-        artist: "Eminem",
+        artist: "Jackson",
         album: "Thriller",
         time: "3:04",
         url: "https://cdn-preview-4.dzcdn.net/stream/c-46acc4f65333fcf80453cf1984d58dc3-2.mp3",
@@ -17,12 +17,12 @@ const songs = [
       {
         title: "Evil",
         time:"4:01",
-        artist: "Eminem",
+        artist: "Evil",
         url: "https://cdn-preview-b.dzcdn.net/stream/c-b873a2ae85a0d695d628e5df8904f656-2.mp3",
       },
       {
           title: "Habits",
-          artist: "Eminem",
+          artist: "Jackson",
           time:"3:57",
           url: "https://cdn-preview-7.dzcdn.net/stream/c-7d8d2b2052de1d40038226cfdc4e4f23-2.mp3",
         },
@@ -34,7 +34,7 @@ const songs = [
         },
         {
           title: "Brand New Dance",
-          artist: "Eminem",
+          artist: "Jackson",
           time:"4:00",
           url: "https://cdn-preview-4.dzcdn.net/stream/c-46acc4f65333fcf80453cf1984d58dc3-2.mp3",
         },

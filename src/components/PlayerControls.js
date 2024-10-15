@@ -10,7 +10,7 @@ const PlayerControls = ({ currentSong, isPlaying, setIsPlaying }) => {
     if (currentSong && !soundRef.current) {
       soundRef.current = new Howl({
         src: [currentSong.url],
-        html5: true  // Enables playing large files by using HTML5 Audio
+        html5: true  
       });
       soundRef.current.play();
       setIsPlaying(true);
@@ -40,11 +40,6 @@ const PlayerControls = ({ currentSong, isPlaying, setIsPlaying }) => {
       }
     };
   }, [currentSong, isPlaying]);
-
-  return (
-    <div className="fixed bottom-0 left-0  right-0 p-4 bg-gray-900 text-white flex justify-center items-center space-x-4">
-    </div>
-  );
 
 };
 
